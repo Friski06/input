@@ -29,15 +29,15 @@ public class Main
         
         for (int i=0; i < jumlah ; i++) 
         {
-            System.out.print("Nim ke-"+(i+1)+": ");
+            System.out.print("Nim Mahasiswa ke-"+(i+1)+": ");
             nim = input.nextInt();
-            System.out.print("umur ke-"+(i+1)+": ");
+            System.out.print("umur Mahasiswa ke-"+(i+1)+": ");
             umur = input.nextInt();
-            System.out.print("Nama ke-"+(i+1)+":  ");
+            System.out.print("Nama Mahasiswa ke-"+(i+1)+":  ");
             nama = input.next();
             System.out.print("Kelas ke-"+(i+1)+":  ");
             kelas = input.next();
-            System.out.print("Alamat ke-"+(i+1)+":  ");
+            System.out.print("Alamat Mahasiswa ke-"+(i+1)+":  ");
             alamat = input.next();
 
 
