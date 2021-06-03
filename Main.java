@@ -14,6 +14,7 @@ public class Main
     {
                 
         ArrayList<Mahasiswa> arrm = new ArrayList<Mahasiswa>();
+         
         
               
         // arrm.add(new Mahasiswa(1001,"Doni"));
@@ -42,6 +43,7 @@ public class Main
 
 
             arrm.add(new Mahasiswa(nim, umur, nama, kelas, alamat));
+            System.out.print("/n");
         }
         
         
@@ -53,6 +55,7 @@ public class Main
               System.out.println("NAMA = "+ mhs.getnamaMhs());
              System.out.println("KELAS = "+ mhs.getkelasMhs());
               System.out.println("ALAMAT = "+ mhs.getalamatMhs());
+            System.out.println("---------------------");
         }
         System.out.println("\nUpdate Data Mahasiswa");
         int cariNim;
@@ -76,6 +79,7 @@ public class Main
               System.out.println("NAMA = "+ mhs.getnamaMhs());
              System.out.println("KELAS = "+ mhs.getkelasMhs());
               System.out.println("ALAMAT = "+ mhs.getalamatMhs());
+               System.out.println("---------------------");
             
         }
         
@@ -92,6 +96,7 @@ public class Main
               System.out.println("NAMA = "+ mhs.getnamaMhs());
              System.out.println("KELAS = "+ mhs.getkelasMhs());
               System.out.println("ALAMAT = "+ mhs.getalamatMhs());
+               System.out.println("---------------------");
         }
         }
         
@@ -123,7 +128,10 @@ public class Main
               System.out.println("NAMA = "+ mhs.getnamaMhs());
              System.out.println("KELAS = "+ mhs.getkelasMhs());
               System.out.println("ALAMAT = "+ mhs.getalamatMhs());
+               System.out.println("---------------------");
         }
+        
+         
     } 
         
         
